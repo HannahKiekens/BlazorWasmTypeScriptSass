@@ -1,13 +1,13 @@
 {
   "name": "uilib",
   "version": "1.0.0",
-  "description": "``` bash npm init ```",
-  "main": "index.js",
+  "description": "",
+  "main": "",
   "scripts": {
     "build-scripts": "webpack --config webpack.config.js",
     "build-css": "dart-sass --unicode --style=expanded Styles/UiLib.scss wwwroot/UiLib.css"
   },
-  "author": "",
+  "author": "Hannah Kiekens",
   "license": "ISC",
   "devDependencies": {
     "dart-sass": "^1.25.0",
