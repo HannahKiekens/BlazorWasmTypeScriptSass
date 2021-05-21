@@ -5,12 +5,12 @@
   "main": "",
   "scripts": {
     "build-scripts": "webpack --config webpack.config.js",
-    "build-css": "dart-sass --unicode --style=expanded Styles/UiLib.scss wwwroot/UiLib.css"
+    "build-css": "sass --unicode --style=expanded Styles/UiLib.scss wwwroot/UiLib.css"
   },
   "author": "Hannah Kiekens",
   "license": "ISC",
   "devDependencies": {
-    "dart-sass": "^1.25.0",
+    "sass": "^1.33.0",
     "ts-loader": "^9.2.1",
     "typescript": "^4.2.4",
     "webpack": "^5.37.1",
